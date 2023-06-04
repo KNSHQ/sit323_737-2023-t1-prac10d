@@ -12,3 +12,6 @@ steps:
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=australia-southeast2'
   - 'CLOUDSDK_CONTAINER_CLUSTER=hello-cluster'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
